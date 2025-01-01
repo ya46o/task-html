@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 3px solid gray;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 20px;
+        }
+        table#alter tr:nth-child(even)
+        {
+            background-color: #01f8e8;
+        }
+        table#alter tr:nth-child(odd)
+        {
+            background-color: #fff;
+        }
+        table#alter th{
+          color: white;  
+          background-color: rgb(12, 124, 199);  
+        }
+    </style>
+</head>
+<body>
+    <table id="alter" align="center">
+        <caption>Employee Information</caption>
+        <tr>
+            <th>Employee Id</th>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Department</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>John Doe</td>
+            <td>Manager</td>
+            <td>Sales</td>
+            <td>$80,000</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Jane Smith</td>
+            <td>Developer</td>
+            <td>IT</td>
+            <td>$95,000</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Sam Brown</td>
+            <td> Designer</td>
+            <td>Marketing</td>
+            <td>$70,000</td>
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>Lisa White</td>
+            <td>Analyst</td>
+            <td>Finance</td>
+            <td>$85,000</td>
+        </tr>
+    </table>
+</body>
+</html>
